@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    width: 1158px;
+    margin: 24px auto;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    transition: all ease-out 250ms;
+}
+
+.gallery-image:hover {
+    width: 376px;
+    height: 208px;
+}
+
+.modal-images {
+    width: 1112px;
+    height: 640px;
+}
